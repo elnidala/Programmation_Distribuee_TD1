@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-python-deploiement
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-python
+  template:
+    metadata:
+      labels:
+        app: test-python
+    spec:
+      containers:
+      - name: test-python
+        image: elnidala/test_python:latest
+        ports:
+        - containerPort: 80
