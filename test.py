@@ -1,1 +1,1 @@
-print("Bonjour, je m'appelle Votre Daniel Latorre.")
+print("Bonjour, je m'appelle Daniel Latorre.")
