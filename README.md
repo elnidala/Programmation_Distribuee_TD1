@@ -1,8 +1,8 @@
 # Lancement du service
 
 `minikube  service test-python-service --url`:
-![assest](assets/deploiement.png)
+![assest](assets/result.png)
 
 
 # Service en ligne
-![assest](assets/result.png)
+![assest](assets/deploeiment.png)
