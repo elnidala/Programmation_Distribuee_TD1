@@ -10,7 +10,7 @@ COPY test.py .
 # Installer Flask
 RUN pip install Flask
 
-# Exposer le port 5000
+# Exposer le port 8080
 EXPOSE 8080
 
 # Commande pour exécuter le script Python lors du démarrage du conteneur
